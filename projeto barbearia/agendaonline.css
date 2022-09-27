@@ -1,0 +1,40 @@
+
+header {
+    background: #BBBBBB;
+    padding: 20px;
+}
+nav li {
+    
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Roboto:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family:"Poppins" sans-serif;
+    background: linear-gradient(-45deg, #FFE4E1 #CD5C5C 	#B22222);
+}
+#form{
+    position: relative;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: 	#F8F8FF;
+    border-radius:10px ;
+    padding: 60px;
+    width: min-content;
+}
